@@ -128,7 +128,7 @@ function renderSandwiches() {
 
 checkoutBtn.addEventListener('click', () => {
   const orderText = cartItems.join('\n');
-  const whatsappLink = `https://api.whatsapp.com/send?phone=SEU_NUMERO_DE_TELEFONE&text=${encodeURIComponent(
+  const whatsappLink = `https://api.whatsapp.com/send?phone=5561998517903&text=${encodeURIComponent(
     'Olá, gostaria de fazer o seguinte pedido:\n' + orderText
   )}`;
   window.open(whatsappLink, '_blank');
