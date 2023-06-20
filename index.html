@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Lanchonete</title>
+</head>
+<body>
+  <header>
+    <h1>Cardápio Online</h1>
+    <img id="cart-image" src="src/images/carrinho.png" alt="">
+  </header>
+
+  <div id="sandwiches-container"></div>
+
+  <div id="cart" class="hide">
+    <div id="cart-header">
+      <img id="cart-image-popup" src="src/images/carrinho.png" alt="Carrinho">
+      <h2></h2>
+      <button id="hide-cart-btn">Ocultar Carrinho</button>
+    </div>
+    <ul id="cart-items"></ul>
+    <button id="checkout-btn">Finalizar Pedido</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
